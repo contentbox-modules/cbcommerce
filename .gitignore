@@ -1,0 +1,30 @@
+.vscode
+
+.artifacts/**
+.tmp/**
+.env
+
+test-harness/.engine/**
+test-harness/.env
+test-harness/coldbox/**
+test-harness/docbox/**
+test-harness/testbox/**
+test-harness/logs/**
+test-harness/modules/**
+
+# CommandBox Modules
+modules/**
+
+# Development artifacts
+changelog-latest.md
+node_modules
+includes/fonts
+includes/css
+includes/images
+includes/js
+includes/*.json
+*-latest.md
+# log files
+logs/**
+/nbproject/private/
+nbproject/

@@ -1,0 +1,29 @@
+{
+    "name":"ContentBox cbCommerce Module",
+    "version":"1.0.0",
+    "author":"Ortus Solutions, Corp",
+    "location":"https://downloads.ortussolutions.com/ortussolutions/contentbox-modules/contentbox-cbcommerce/@build.version@/contentbox-cbcommerce-@build.version@+@build.number@.zip",
+    "homepage":"https://cbcommerce.ortusbooks.com",
+    "documentation":"https://cbcommerce.ortusbooks.com",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/contentbox-modules/cbcommerce"
+    },
+    "bugs":"https://github.com/contentbox-modules/cbcommerce/issues",
+    "slug":"cbcommerce",
+    "shortDescription":"Contentbox integration module for cbCommerce",
+    "description":"Contentbox integration module for cbCommerce",
+    "type":"contentbox-modules",
+    "dependencies":{
+        "cbcommerce" : "^1"
+    },
+    "devDependencies":{},
+    "installPaths":{
+        "cbcommerce" : "modules/cbcommerce"
+    },
+    "ignore":[
+        "**/.*",
+        "test-harness",
+        "*/.md"
+    ]
+}
